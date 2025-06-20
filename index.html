@@ -71,6 +71,25 @@
 	visibility: hidden;
 }
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.button-group a {
+  width: 180px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 		</style>
 	</head>
@@ -116,8 +135,11 @@
 								<h1 class="mb-4">Experience Colonial Charm and Modern Comfort in the Heart of Galle Fort</h1>
 							</div>
 							<div style="display: flex; justify-content: center; gap: 1.5rem; margin: 1rem 0;">
-								<p><a href="#gallery" class="btn btn-secondary rounded" style="width: 180px; text-align: center;">VIEW VILLA</a></p>
-								<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank" style="width: 180px; text-align: center;">BOOK YOUR STAY</a></p>
+								<div class="button-group">
+									<p><a href="#gallery" class="btn btn-secondary rounded">VIEW VILLA</a></p>
+									<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank">BOOK YOUR STAY</a></p>
+								</div>
+
 							</div>
 						</div>
 					</div>
@@ -134,9 +156,9 @@
 							<h2 class="mb-4">GALLE HERITAGE VILLA</h2>
 							<h1 class="mb-4">Stay Steps from the Sea Surrounded by Heritage and Hospitality</h1>
 						</div>
-						<div style="display: flex; justify-content: center; gap: 1.5rem; margin: 1rem 0;">
-							<p><a href="#gallery" class="btn btn-secondary rounded" style="width: 180px; text-align: center;">VIEW VILLA</a></p>
-							<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank" style="width: 180px; text-align: center;">BOOK YOUR STAY</a></p>
+						<div class="button-group">
+							<p><a href="#about" class="btn btn-secondary rounded">ABOUT VILLA</a></p>
+							<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank">BOOK YOUR STAY</a></p>
 						</div>
 					</div>
 					</div>
@@ -234,7 +256,7 @@
 						<div class="col-md-5 wrap-about pb-md-3 ftco-animate pr-md-5 pb-md-5 pt-md-4">
 						<div class="heading-section mb-4 my-5 my-md-0">
 							<span class="subheading">About Galle Heritage Villa</span>
-							<h2 class="mb-4">Heritage Villa <br> The Most Recommended Villa in Galle Fort</h2>
+							<h2 class="mb-4">The Most Recommended Villa in Galle Fort</h2>
 						</div>
 						<p>Welcome to the <strong>Galle Heritage Villa</strong> located in the heart of the UNESCO World Heritage Dutch Fort in Galle, Sri Lanka. The villa is a transformation of a 1950's Beverly Hills inspired mansion into a Colonial Dutch Villa, and boasts 4 large, elegantly decorated suites with luxuriously comfortable beds and spacious ensuite bathrooms with hot/cold water and all modern amenities.</p>
 						<p>Experience life in the ancient Galle Fort by strolling down its narrow streets and alleys, admire the C17th colonial architecture, one of the best preserved anywhere in Asia.</p>
@@ -500,7 +522,7 @@
 							<p><strong>Phone:</strong> <a href="tel://1234567920" style="color: #999999;">+94 702 775 776</a></p>
 						</div>
 						<div class="info rounded bg-white p-4 mb-3">
-							<p><strong>Email:</strong> <a href="mailto:info@yoursite.com" style="color: #999999;">	info@heritage.com</a></p>
+							<p><strong>Email:</strong> <a href="mailto:info.galleheritagevilla@gmail.com" style="color: #999999;">info.galleheritagevilla@gmail.com</a></p>
 						</div>
 						<div class="info rounded bg-white p-4">
 							<p><strong>Website:</strong> <a href="#" style="color: #999999;">yoursite.com</a></p>
@@ -582,7 +604,7 @@
 		</footer>
     
 		<!-- loader -->
-		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#6fa9f2"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+		<!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#6fa9f2"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
 
 
 		<script src="js/jquery.min.js"></script>
