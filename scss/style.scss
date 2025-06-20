@@ -8,7 +8,7 @@ $black: #000000;
 $darken: #312b30;
 
 $primary: #21cc7a;
-$secondary: #6fa9f2;
+$secondary: var(--primary);
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
