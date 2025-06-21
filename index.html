@@ -70,52 +70,57 @@
 			}
 
 			#ftco-loader {
-	transition: opacity 0.5s ease, visibility 0.5s ease;
-}
+				transition: opacity 0.5s ease, visibility 0.5s ease;
+			}
 
-#ftco-loader:not(.show) {
-	opacity: 0;
-	visibility: hidden;
-}
+			#ftco-loader:not(.show) {
+				opacity: 0;
+				visibility: hidden;
+			}
 
-.button-group {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin: 1rem 0;
-}
+			.button-group {
+				display: flex;
+				justify-content: center;
+				gap: 1.5rem;
+				margin: 1rem 0;
+			}
 
-.button-group a {
-  width: 180px;
-  text-align: center;
-}
+			.button-group a {
+				width: 180px;
+				text-align: center;
+			}
 
-@media (max-width: 500px) {
-  .button-group {
-    flex-direction: column;
-    align-items: center;
-  }
-}
+			@media (max-width: 500px) {
+			.button-group {
+				flex-direction: column;
+				align-items: center;
+			}
+			}
 
-#tag-line {
-font-family: 'Mukta', sans-serif;
-}
+			#tag-line {
+				font-family: 'Mukta', sans-serif;
+			}
 
-.zoom-link {
-  display: block;
-  overflow: hidden;
-}
+			.zoom-link {
+				display: block;
+				overflow: hidden;
+			}
 
-.zoom-img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.4s ease;
-}
+			.zoom-img {
+				width: 100%;
+				height: auto;
+				transition: transform 0.4s ease;
+			}
 
-.zoom-link:hover .zoom-img {
-  transform: scale(1.05); /* Slight zoom */
-}
+			.zoom-link:hover .zoom-img {
+				transform: scale(1.05); /* Slight zoom */
+			}
 
+			@media (min-width: 768px) {
+				#about.ftco-no-pb {
+					padding-bottom: 6rem !important; /* or the default padding you want */
+				}
+			}
 
 		</style>
 	</head>
@@ -194,7 +199,7 @@ font-family: 'Mukta', sans-serif;
 		</div>
 
 
-		<section id="about" class="ftco-section">
+		<section id="about" class="ftco-section ftco-no-pb">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-3">
 					<div class="col-md-7 heading-section text-center ftco-animate">
@@ -274,19 +279,19 @@ font-family: 'Mukta', sans-serif;
 
 		<section class="ftco-section ftco-wrap-about ftco-no-pt">
 				<div class="container">
-					<div class="row no-gutters">
+					<div class="row no-gutters">					
+						<div class="col-md-5 wrap-about ftco-animate pb-5 pr-md-5 pb-md-5 pt-md-4">
+							<div class="heading-section mb-4 my-5 my-md-0">
+								<span class="subheading">About Galle Heritage Villa</span>
+								<h2 class="mb-4">The Most Recommended Villa in Galle Fort</h2>
+							</div>
+							<p>Welcome to the <strong>Galle Heritage Villa</strong> located in the heart of the UNESCO World Heritage Dutch Fort in Galle, Sri Lanka. The villa is a transformation of a 1950's Beverly Hills inspired mansion into a Colonial Dutch Villa, and boasts 4 large, elegantly decorated suites with luxuriously comfortable beds and spacious ensuite bathrooms with hot/cold water and all modern amenities.</p>
+							<p>Experience life in the ancient Galle Fort by strolling down its narrow streets and alleys, admire the C17th colonial architecture, one of the best preserved anywhere in Asia.</p>
+							<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank">BOOK YOUR STAY</a></p>
+						</div>
 						<div class="col-md-7 order-md-last d-flex">
 							<div class="img img-1 mr-md-2 ftco-animate" style="background-image: url(images/galle-5.jpg);"></div>
 							<div class="img img-2 ml-md-2 ftco-animate" style="background-image: url(images/galle-4.jpg);"></div>
-						</div>
-						<div class="col-md-5 wrap-about pb-md-3 ftco-animate pr-md-5 pb-md-5 pt-md-4">
-						<div class="heading-section mb-4 my-5 my-md-0">
-							<span class="subheading">About Galle Heritage Villa</span>
-							<h2 class="mb-4">The Most Recommended Villa in Galle Fort</h2>
-						</div>
-						<p>Welcome to the <strong>Galle Heritage Villa</strong> located in the heart of the UNESCO World Heritage Dutch Fort in Galle, Sri Lanka. The villa is a transformation of a 1950's Beverly Hills inspired mansion into a Colonial Dutch Villa, and boasts 4 large, elegantly decorated suites with luxuriously comfortable beds and spacious ensuite bathrooms with hot/cold water and all modern amenities.</p>
-						<p>Experience life in the ancient Galle Fort by strolling down its narrow streets and alleys, admire the C17th colonial architecture, one of the best preserved anywhere in Asia.</p>
-						<p><a href="https://wa.me/+94702775776" class="btn btn-secondary rounded" target="_blank">BOOK YOUR STAY</a></p>
 						</div>
 					</div>
 				</div>
