@@ -1,6 +1,6 @@
 # Heritage Villa
 
-This website for villa.
+This website for Heritage Villa.
 
 The website is live on : https://www.galleheritagevilla.com/
 
